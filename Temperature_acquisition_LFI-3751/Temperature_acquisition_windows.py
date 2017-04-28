@@ -43,7 +43,7 @@ def readingwriting(timeint, countmax, newstdin, continuous, datalist, flag, sett
 
     #-- SERIAL CONNECTION --
     ser = serial.Serial(
-        port = "\\.\COM4",
+        port = "\\.\COM",
         baudrate = 19200,
         parity = serial.PARITY_NONE,
         stopbits = serial.STOPBITS_ONE,
